@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DefaultMeshes\ObjectMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DefaultMeshes\SkyboxMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tutorials\Lighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gizmos_Fix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_core_4_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependincies\TinyObj\tiny_obj_loader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\GPUParticleEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MaterialHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MobileCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ShaderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tutorials\AdvTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tutorials\ProceduralGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tutorials\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DefaultMeshes\CubeMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DefaultMeshes\ObjectMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DefaultMeshes\SkyboxMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tutorials\Lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gizmos_Fix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gl_core_4_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependincies\FBXLoader\FBXFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependincies\stb-master\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependincies\TinyObj\tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\GPUParticleEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MaterialHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MobileCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ShaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tutorials\AdvTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tutorials\ProceduralGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependincies\AntTweakBar\include\AntTweakBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependincies\glfw\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tutorials\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\shaders\advTexture.frag" />
+    <None Include="Data\shaders\lighting.frag" />
+    <None Include="Data\shaders\lighting.vert" />
+    <None Include="Data\shaders\proceduralGen.frag" />
+    <None Include="Data\shaders\proceduralGen.vert" />
+    <None Include="Data\shaders\advTexture.vert" />
+    <None Include="Dependincies\glfw\lib-vc2013\glfw3.dll" />
+    <None Include="Dependincies\glm\CTestConfig.cmake" />
+    <None Include="Data\shaders\GPUparticle.frag" />
+    <None Include="Data\shaders\GPUparticle.geom" />
+    <None Include="Data\shaders\GPUparticle.vert" />
+    <None Include="Data\shaders\GPUparticleUpdateGrass.vert" />
+    <None Include="Data\shaders\GPUparticleUpdateRain.vert" />
+    <None Include="Dependincies\AntTweakBar\lib\AntTweakBar.dll" />
+    <None Include="Data\shaders\bluePlane.frag" />
+    <None Include="Data\shaders\bluePlane.vert" />
+    <None Include="Data\shaders\litTerrain.frag" />
+    <None Include="Data\shaders\litTerrain.geom" />
+    <None Include="Data\shaders\litTerrain.vert" />
+    <None Include="Data\models\Bunny.fbx" />
+    <None Include="Data\models\Dragon.fbx" />
+    <None Include="Data\shaders\GPUparticleUpdateCloud.vert" />
+    <None Include="Data\models\Pyro\pyro.fbx" />
+    <None Include="Data\shaders\animtation.frag" />
+    <None Include="Data\shaders\animtation.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\textures\rock_diffuse.tga" />
+    <Image Include="Data\textures\rock_normal.tga" />
+    <Image Include="Data\textures\sand.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\textures\grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\textures\iceREPLACE .jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\models\Pyro\Flamethrower_D.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\models\Pyro\Flamethrower_N.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\models\Pyro\Flamethrower_S.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\models\Pyro\Pyro_D.tga" />
+    <Image Include="Data\models\Pyro\Pyro_N.tga" />
+    <Image Include="Data\models\Pyro\Pyro_S.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependincies\glfw\lib-vc2013\glfw3.lib" />
+    <Library Include="Dependincies\glfw\lib-vc2013\glfw3dll.lib" />
+    <Library Include="Dependincies\AntTweakBar\lib\AntTweakBar.lib" />
+    <Library Include="Dependincies\FBXLoader\FBXLoader_d.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Dependincies\glm\CMakeLists.txt" />
+    <Text Include="Dependincies\glm\copying.txt" />
+    <Text Include="Dependincies\glm\readme.txt" />
+  </ItemGroup>
+</Project>
